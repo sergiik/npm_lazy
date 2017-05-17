@@ -17,6 +17,7 @@ module.exports = {
   },
 
   // Cache config
+  readOnly: false,
 
   // `cacheDirectory`: Directory to store cached packages.
   //

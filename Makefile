@@ -2,6 +2,7 @@ TESTS += test/api.test.js
 TESTS += test/lifecycle.test.js
 TESTS += test/package.test.js
 TESTS += test/resource.test.js
+TESTS += test/resource-readonly.test.js
 
 test:
     ifeq ($(OS),Windows_NT)
